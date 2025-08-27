@@ -25,6 +25,12 @@ h2 {
   text-align: center;
 }
 
+ul {
+  list-style-type: none; /* removes the bullets */
+  padding-left: 0;       /* removes left spacing */
+}
+
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, 375px);
